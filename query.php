@@ -1,5 +1,5 @@
 <?php 
-require_once('connect/connect.php');?>
+require_once('connect.php');?>
 <?php
 mysql_select_db($database_winestore, $winestore);
 $query_Region = "SELECT * FROM region ORDER BY region_name ASC";
