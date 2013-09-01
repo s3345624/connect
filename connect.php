@@ -16,5 +16,5 @@
 		exit;
 		}
 	
-	echo 'Connected to database ' . database_winestore . '\n';
+	echo 'Connected to database ' . database_winestore;
 ?>
